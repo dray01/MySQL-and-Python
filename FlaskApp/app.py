@@ -7,10 +7,10 @@ app = Flask(__name__)
 mysql = MySQL()
 
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'UyNh4eve@6514'
+app.config['MYSQL_DATABASE_USER'] = 'bucket'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'edit'
 app.config['MYSQL_DATABASE_DB'] = 'bucketlist'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+app.config['MYSQL_DATABASE_HOST'] = 'bd-demo-bucketlist-db'
 mysql.init_app(app)
 
 # set a secret key for the session
